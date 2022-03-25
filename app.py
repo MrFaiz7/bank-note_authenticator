@@ -11,7 +11,7 @@ def predict_note_authentication(variance, skewness, curtosis, entropy):
 
 
 def main():
-    st.title("Bank Authenticator")
+    st.title("Bank Note Authenticator")
     html_temp = """
     <div style="background-color:tomato;padding:10px">
     <h2 style="color:white;text-align:center;">Streamlit Bank Authenticator ML App </h2>
